@@ -14,11 +14,11 @@ def driver_init_1(request):
     # chrome_options = webdriver.ChromeOptions()
     # chrome_options.add_argument('headless')
     # web_driver = webdriver.Chrome(chrome_options=chrome_options,executable_path="chromedriver.exe")
-    web_driver = webdriver.Remote( command_executor='http://localhost:4444/wd/hub',desired_capabilities={
-            "browserName": "firefox",
-            "platformName": "linux",
-        })
-    # web_driver = webdriver.Chrome(executable_path="C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
+    # web_driver = webdriver.Remote( command_executor='http://localhost:4444/wd/hub',desired_capabilities={
+    #         "browserName": "firefox",
+    #         "platformName": "linux",
+    #     })
+    web_driver = webdriver.Chrome(executable_path="C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
     request.cls.driver = web_driver
     yield
     web_driver.close()

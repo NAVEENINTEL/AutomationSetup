@@ -1,0 +1,285 @@
+{
+  "uid" : "3f3f56b84c9f0507",
+  "name" : "test_API",
+  "fullName" : "testcases.test_pytest_1.Test_URL_Chrome#test_API",
+  "historyId" : "3f5002a3742921ca4b335abab537fbfa",
+  "time" : {
+    "start" : 1621451676043,
+    "stop" : 1621451676143,
+    "duration" : 100
+  },
+  "description" : "STATUS CODE:200 || 12 || Rachel",
+  "descriptionHtml" : "<p>STATUS CODE:200 || 12 || Rachel</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init_1",
+    "time" : {
+      "start" : 1621451668457,
+      "stop" : 1621451669746,
+      "duration" : 1289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "STATUS CODE:200 || 12 || Rachel",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "REST API Testing",
+      "time" : {
+        "start" : 1621451676043,
+        "stop" : 1621451676143,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Executing getUsersapi method ",
+        "time" : {
+          "start" : 1621451676054,
+          "stop" : 1621451676143,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a7074871a60b0e1f",
+      "name" : "log",
+      "source" : "a7074871a60b0e1f.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_init_1::0",
+    "time" : {
+      "start" : 1621451676144,
+      "stop" : 1621451680324,
+      "duration" : 4180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init_1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Chrome"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "3036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "bb8cd8076f242951",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/92/allure/#testresult/bb8cd8076f242951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621435096296,
+          "stop" : 1621435097205,
+          "duration" : 909
+        }
+      }, {
+        "uid" : "db10e32ba917e5ee",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/91/allure/#testresult/db10e32ba917e5ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621434995708,
+          "stop" : 1621434996552,
+          "duration" : 844
+        }
+      }, {
+        "uid" : "25035973f7b8fdbc",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/90/allure/#testresult/25035973f7b8fdbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621434654513,
+          "stop" : 1621434655161,
+          "duration" : 648
+        }
+      }, {
+        "uid" : "d961d0c3abb073f6",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/88/allure/#testresult/d961d0c3abb073f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621433864487,
+          "stop" : 1621433864644,
+          "duration" : 157
+        }
+      }, {
+        "uid" : "47c734d13390bd35",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/87/allure/#testresult/47c734d13390bd35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621433638173,
+          "stop" : 1621433639036,
+          "duration" : 863
+        }
+      }, {
+        "uid" : "71be94d843739ef9",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/86/allure/#testresult/71be94d843739ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621395440612,
+          "stop" : 1621395441033,
+          "duration" : 421
+        }
+      }, {
+        "uid" : "4b6eef9339f36bd5",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/85/allure/#testresult/4b6eef9339f36bd5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621395040447,
+          "stop" : 1621395040571,
+          "duration" : 124
+        }
+      }, {
+        "uid" : "212b50462b11cf14",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/84/allure/#testresult/212b50462b11cf14",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=90.0.4430.212)",
+        "time" : {
+          "start" : 1621341280656,
+          "stop" : 1621341280656,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e96519cae5c29d0",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/83/allure/#testresult/e96519cae5c29d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621337069966,
+          "stop" : 1621337070562,
+          "duration" : 596
+        }
+      }, {
+        "uid" : "73c8264c4cb387c8",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/82/allure/#testresult/73c8264c4cb387c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621336899102,
+          "stop" : 1621336899577,
+          "duration" : 475
+        }
+      }, {
+        "uid" : "f9e8c73b942845d2",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/80/allure/#testresult/f9e8c73b942845d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621336583795,
+          "stop" : 1621336584249,
+          "duration" : 454
+        }
+      }, {
+        "uid" : "6d06002eb95348c0",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/79/allure/#testresult/6d06002eb95348c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621335561733,
+          "stop" : 1621335561855,
+          "duration" : 122
+        }
+      }, {
+        "uid" : "39519a781fd702bd",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/78/allure/#testresult/39519a781fd702bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621335335453,
+          "stop" : 1621335335580,
+          "duration" : 127
+        }
+      }, {
+        "uid" : "174afd3c9b1ca573",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/76/allure/#testresult/174afd3c9b1ca573",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621334564187,
+          "stop" : 1621334564672,
+          "duration" : 485
+        }
+      }, {
+        "uid" : "66c87305b43c2d71",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/75/allure/#testresult/66c87305b43c2d71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621333932376,
+          "stop" : 1621333932767,
+          "duration" : 391
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('driver_init_1')" ]
+  },
+  "source" : "3f3f56b84c9f0507.json",
+  "parameterValues" : [ ]
+}
