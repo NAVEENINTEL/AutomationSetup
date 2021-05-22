@@ -1,0 +1,109 @@
+{
+  "uid" : "7f359c573384e53e",
+  "name" : "test_lambdatest_todo_app",
+  "fullName" : "testcases.test_pytest_1.Test_URL_Chrome#test_lambdatest_todo_app",
+  "historyId" : "dc9f49ff25a5ea9956d356a8ef3555bc",
+  "time" : {
+    "start" : 1621451669747,
+    "stop" : 1621451672999,
+    "duration" : 3252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init_1",
+    "time" : {
+      "start" : 1621451668457,
+      "stop" : 1621451669746,
+      "duration" : 1289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d11e685c4861dd2a",
+      "name" : "lamdatest",
+      "source" : "d11e685c4861dd2a.png",
+      "type" : "image/png",
+      "size" : 33081
+    }, {
+      "uid" : "89e41dcd289937c5",
+      "name" : "log",
+      "source" : "89e41dcd289937c5.txt",
+      "type" : "text/plain",
+      "size" : 139
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_init_1::0",
+    "time" : {
+      "start" : 1621451676144,
+      "stop" : 1621451680324,
+      "duration" : 4180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init_1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Chrome"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "3036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init_1')" ]
+  },
+  "source" : "7f359c573384e53e.json",
+  "parameterValues" : [ ]
+}

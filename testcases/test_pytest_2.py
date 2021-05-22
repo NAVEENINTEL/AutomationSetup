@@ -10,17 +10,10 @@ import time
 from time import sleep
 import sys
 
+from utilities.BasicTest import BasicTest
+
+
 @pytest.mark.usefixtures("driver_init_1")
-class BasicTest:
-    def getLogger(self):
-        loggerName = inspect.stack()[1][3]
-        logger = logging.getLogger(loggerName)
-        fileHandler = logging.FileHandler('../logfile.log')
-        formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
-        fileHandler.setFormatter(formatter)
-        logger.addHandler(fileHandler)  # filehandler object
-        logger.setLevel(logging.DEBUG)
-        return logger
 class Test_URL_Firefox(BasicTest):
     def test_google_search(self):
         log = self.getLogger()
