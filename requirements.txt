@@ -13,3 +13,4 @@ selenium==3.141.0
 setuptools==49.2.1
 six ==1.15.0
 urllib3==1.26.4
+webdriver-manager

@@ -1,0 +1,319 @@
+{
+  "uid" : "ce11cdaef67f057c",
+  "name" : "test_lambdatest_load",
+  "fullName" : "testcases.test_pytest_1.Test_URL_Chrome#test_lambdatest_load",
+  "historyId" : "601e1e7e49baa98279b4195bb29fc2fb",
+  "time" : {
+    "start" : 1621716072627,
+    "stop" : 1621716075690,
+    "duration" : 3063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1621716068453,
+      "stop" : 1621716069735,
+      "duration" : 1282
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "launching Goggle in chrome",
+      "time" : {
+        "start" : 1621716072628,
+        "stop" : 1621716075690,
+        "duration" : 3062
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75dcc172faec52b4",
+        "name" : "lamdatest",
+        "source" : "75dcc172faec52b4.png",
+        "type" : "image/png",
+        "size" : 29840
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "79f98e0995577a1a",
+      "name" : "log",
+      "source" : "79f98e0995577a1a.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup1::0",
+    "time" : {
+      "start" : 1621716075809,
+      "stop" : 1621716080001,
+      "duration" : 4192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Chrome"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "3368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 32,
+        "unknown" : 0,
+        "total" : 35
+      },
+      "items" : [ {
+        "uid" : "e9f2a7de1d0769a4",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/123/allure/#testresult/e9f2a7de1d0769a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621716072627,
+          "stop" : 1621716075690,
+          "duration" : 3063
+        }
+      }, {
+        "uid" : "6c0a9b3be3dcd7b",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/121/allure/#testresult/6c0a9b3be3dcd7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621715867025,
+          "stop" : 1621715870384,
+          "duration" : 3359
+        }
+      }, {
+        "uid" : "240f7d66f3c5c666",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/120/allure/#testresult/240f7d66f3c5c666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "8a6edabf5d427e96",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/119/allure/#testresult/8a6edabf5d427e96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "61fbbde2b8b03b40",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/117/allure/#testresult/61fbbde2b8b03b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "7d38e74d8cecfff9",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/116/allure/#testresult/7d38e74d8cecfff9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "f0faba0d7f513d97",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/115/allure/#testresult/f0faba0d7f513d97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "d53c4492065d82d9",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/114/allure/#testresult/d53c4492065d82d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712911155,
+          "stop" : 1621712914222,
+          "duration" : 3067
+        }
+      }, {
+        "uid" : "2eef5d0bee84698b",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/113/allure/#testresult/2eef5d0bee84698b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+        "time" : {
+          "start" : 1621712742162,
+          "stop" : 1621712742162,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "379762023beeca2b",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/112/allure/#testresult/379762023beeca2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621711795980,
+          "stop" : 1621711799017,
+          "duration" : 3037
+        }
+      }, {
+        "uid" : "c5c79eea32f2575f",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/111/allure/#testresult/c5c79eea32f2575f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621710819735,
+          "stop" : 1621710823006,
+          "duration" : 3271
+        }
+      }, {
+        "uid" : "c441f163ceb8c548",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/110/allure/#testresult/c441f163ceb8c548",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621709397521,
+          "stop" : 1621709401231,
+          "duration" : 3710
+        }
+      }, {
+        "uid" : "3ef2b68620b49b1e",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/109/allure/#testresult/3ef2b68620b49b1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621457031376,
+          "stop" : 1621457038577,
+          "duration" : 7201
+        }
+      }, {
+        "uid" : "b69c2290efbaf668",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/108/allure/#testresult/b69c2290efbaf668",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621457031376,
+          "stop" : 1621457038577,
+          "duration" : 7201
+        }
+      }, {
+        "uid" : "44b9a10f0a0d4a56",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/107/allure/#testresult/44b9a10f0a0d4a56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621456817353,
+          "stop" : 1621456828805,
+          "duration" : 11452
+        }
+      }, {
+        "uid" : "65f752c307c2db4f",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/103/allure/#testresult/65f752c307c2db4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621455768852,
+          "stop" : 1621455778898,
+          "duration" : 10046
+        }
+      }, {
+        "uid" : "6ce7fdc4aef93985",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/6ce7fdc4aef93985",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621452691178,
+          "stop" : 1621452694251,
+          "duration" : 3073
+        }
+      }, {
+        "uid" : "ed01c66a9b65401a",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/ed01c66a9b65401a",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000149262A5D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+        "time" : {
+          "start" : 1621452394254,
+          "stop" : 1621452394254,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "24d010a10ee04f21",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/24d010a10ee04f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621451673007,
+          "stop" : 1621451676038,
+          "duration" : 3031
+        }
+      }, {
+        "uid" : "b2ec4f51b0a762e9",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/92/allure/#testresult/b2ec4f51b0a762e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621435093134,
+          "stop" : 1621435096292,
+          "duration" : 3158
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('setup1')" ]
+  },
+  "source" : "ce11cdaef67f057c.json",
+  "parameterValues" : [ ]
+}

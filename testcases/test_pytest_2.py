@@ -13,7 +13,7 @@ import sys
 from utilities.BasicTest import BasicTest
 
 
-@pytest.mark.usefixtures("driver_init_1")
+@pytest.mark.usefixtures("setup1")
 class Test_URL_Firefox(BasicTest):
     def test_google_search(self):
         log = self.getLogger()
