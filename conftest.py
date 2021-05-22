@@ -16,8 +16,8 @@ def pytest_addoption(parser):
 def setup1(request):
     browser_name = request.config.getoption("browser_name")
     if browser_name=='chrome':
-        # web_driver = webdriver.Chrome(executable_path="C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
-        web_driver = webdriver.Chrome(ChromeDriverManager().install())
+        web_driver = webdriver.Chrome(executable_path="C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
+        #web_driver = webdriver.Chrome(ChromeDriverManager().install())
     elif browser_name=='firefox':
         web_driver=webdriver.Firefox(executable_path=GeckoDriverManager().install())
     elif browser_name=='IE':

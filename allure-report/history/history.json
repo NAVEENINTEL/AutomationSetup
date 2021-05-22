@@ -2,13 +2,41 @@
   "3f5002a3742921ca4b335abab537fbfa" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 32,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 35
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "8a8c3ddc93e5077c",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/8a8c3ddc93e5077c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717354914,
+        "stop" : 1621717355024,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "5fb27b6733a2af9c",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/5fb27b6733a2af9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717354914,
+        "stop" : 1621717355024,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "46df6bdd1801cf5c",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/46df6bdd1801cf5c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717219323,
+        "stop" : 1621717219323,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ac6ef69f2cd2d8e7",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/ac6ef69f2cd2d8e7",
       "status" : "passed",
@@ -162,46 +190,47 @@
         "stop" : 1621455779708,
         "duration" : 800
       }
-    }, {
-      "uid" : "67ac4ba26cb30b89",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/67ac4ba26cb30b89",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452694256,
-        "stop" : 1621452694687,
-        "duration" : 431
-      }
-    }, {
-      "uid" : "ff2e6d577d7d7d3a",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/ff2e6d577d7d7d3a",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000149262A5D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
-      "time" : {
-        "start" : 1621452394459,
-        "stop" : 1621452394459,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "3f3f56b84c9f0507",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/3f3f56b84c9f0507",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451676043,
-        "stop" : 1621451676143,
-        "duration" : 100
-      }
     } ]
   },
   "1f058a68bcf098a492bf2d83edbef5da" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 33
+      "total" : 36
     },
     "items" : [ {
+      "uid" : "80d479e20f2bd779",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/80d479e20f2bd779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717551236,
+        "stop" : 1621717554591,
+        "duration" : 3355
+      }
+    }, {
+      "uid" : "ecbcc69c1b5f8ebe",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/ecbcc69c1b5f8ebe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717219375,
+        "stop" : 1621717219375,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "30e6ea5b566149ed",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/30e6ea5b566149ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717219375,
+        "stop" : 1621717219375,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b5cc807f33187c55",
       "reportUrl" : "http://localhost:8080/job/AllureReports/121/allure/#testresult/b5cc807f33187c55",
       "status" : "passed",
@@ -356,45 +385,48 @@
         "stop" : 1621452394719,
         "duration" : 0
       }
-    }, {
-      "uid" : "cce7fc0413b4000b",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/cce7fc0413b4000b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451681723,
-        "stop" : 1621451684964,
-        "duration" : 3241
-      }
-    }, {
-      "uid" : "9fb617c7aff71872",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/92/allure/#testresult/9fb617c7aff71872",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621435102670,
-        "stop" : 1621435106007,
-        "duration" : 3337
-      }
-    }, {
-      "uid" : "70d79b85729e3596",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/91/allure/#testresult/70d79b85729e3596",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621435002068,
-        "stop" : 1621435005834,
-        "duration" : 3766
-      }
     } ]
   },
   "b3d9b8525f8c7e018c0139a137e6b64d" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 18,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 19,
       "unknown" : 0,
-      "total" : 34
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "b3f3cde8d8a5e9e4",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/b3f3cde8d8a5e9e4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1621717536088,
+        "stop" : 1621717536089,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "26af6e319d75e25b",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/26af6e319d75e25b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1621717345430,
+        "stop" : 1621717345431,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "94360ed29715f550",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/94360ed29715f550",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1621717214329,
+        "stop" : 1621717214330,
+        "duration" : 1
+      }
+    }, {
       "uid" : "9a2fea33a0e0e1e2",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/9a2fea33a0e0e1e2",
       "status" : "failed",
@@ -562,45 +594,47 @@
         "stop" : 1621455747081,
         "duration" : 1344
       }
-    }, {
-      "uid" : "a43ccab7a34810c6",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/a43ccab7a34810c6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452683768,
-        "stop" : 1621452684336,
-        "duration" : 568
-      }
-    }, {
-      "uid" : "f70c2abba67a56bd",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/f70c2abba67a56bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452373561,
-        "stop" : 1621452373683,
-        "duration" : 122
-      }
-    }, {
-      "uid" : "a5d2ebebf9b8b381",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/a5d2ebebf9b8b381",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451666629,
-        "stop" : 1621451666739,
-        "duration" : 110
-      }
     } ]
   },
   "03eca6a75d6378bb71de62a773c85ea7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 33
+      "total" : 36
     },
     "items" : [ {
+      "uid" : "b6b30eec58e59095",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/b6b30eec58e59095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717554605,
+        "stop" : 1621717560709,
+        "duration" : 6104
+      }
+    }, {
+      "uid" : "7ac0978cf8ed13b5",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/7ac0978cf8ed13b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717222208,
+        "stop" : 1621717222208,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5e5aa2be0b822068",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/5e5aa2be0b822068",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717222208,
+        "stop" : 1621717222208,
+        "duration" : 0
+      }
+    }, {
       "uid" : "44ad3c37fafc845f",
       "reportUrl" : "http://localhost:8080/job/AllureReports/121/allure/#testresult/44ad3c37fafc845f",
       "status" : "passed",
@@ -755,33 +789,6 @@
         "stop" : 1621452413330,
         "duration" : 0
       }
-    }, {
-      "uid" : "ba5e673c8d6bdb82",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/ba5e673c8d6bdb82",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451684976,
-        "stop" : 1621451690997,
-        "duration" : 6021
-      }
-    }, {
-      "uid" : "feef824966c8893b",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/92/allure/#testresult/feef824966c8893b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621435106011,
-        "stop" : 1621435112291,
-        "duration" : 6280
-      }
-    }, {
-      "uid" : "ab7d8ca04bc5610a",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/91/allure/#testresult/ab7d8ca04bc5610a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621435005838,
-        "stop" : 1621435011992,
-        "duration" : 6154
-      }
     } ]
   },
   "cd77f0a233c8c19849f5ded4a24b3669" : {
@@ -789,11 +796,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 34,
+      "passed" : 37,
       "unknown" : 0,
-      "total" : 34
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "12340b35db6f50b3",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/12340b35db6f50b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717537265,
+        "stop" : 1621717538035,
+        "duration" : 770
+      }
+    }, {
+      "uid" : "748dfe57fadf22d3",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/748dfe57fadf22d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717346537,
+        "stop" : 1621717347362,
+        "duration" : 825
+      }
+    }, {
+      "uid" : "3cc75abb2520e597",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/3cc75abb2520e597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717215457,
+        "stop" : 1621717216274,
+        "duration" : 817
+      }
+    }, {
       "uid" : "c5ed40b916b9eb15",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/c5ed40b916b9eb15",
       "status" : "passed",
@@ -945,33 +979,6 @@
         "start" : 1621455750278,
         "stop" : 1621455757278,
         "duration" : 7000
-      }
-    }, {
-      "uid" : "42d11c2ab62a1f92",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/42d11c2ab62a1f92",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452685835,
-        "stop" : 1621452686812,
-        "duration" : 977
-      }
-    }, {
-      "uid" : "f9b40e542a2a2783",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/f9b40e542a2a2783",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452374610,
-        "stop" : 1621452375399,
-        "duration" : 789
-      }
-    }, {
-      "uid" : "5fb37c0e317f4bf6",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/5fb37c0e317f4bf6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451667653,
-        "stop" : 1621451668448,
-        "duration" : 795
       }
     } ]
   },
@@ -1270,13 +1277,41 @@
   "dc9f49ff25a5ea9956d356a8ef3555bc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 32,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 35
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "156db2687ebd4d48",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/156db2687ebd4d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717539342,
+        "stop" : 1621717542560,
+        "duration" : 3218
+      }
+    }, {
+      "uid" : "f4cab57c50d4611b",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/f4cab57c50d4611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717348684,
+        "stop" : 1621717351737,
+        "duration" : 3053
+      }
+    }, {
+      "uid" : "90aa9f84032644a6",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/90aa9f84032644a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717216279,
+        "stop" : 1621717216279,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5ed834f19dd58643",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/5ed834f19dd58643",
       "status" : "passed",
@@ -1430,34 +1465,6 @@
         "stop" : 1621455768841,
         "duration" : 10275
       }
-    }, {
-      "uid" : "2714f6decbd885a6",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/2714f6decbd885a6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452688112,
-        "stop" : 1621452691174,
-        "duration" : 3062
-      }
-    }, {
-      "uid" : "ee35139e63dd8d9",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/ee35139e63dd8d9",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000149262A5D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
-      "time" : {
-        "start" : 1621452375405,
-        "stop" : 1621452375405,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "6137e6c3532de65c",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/6137e6c3532de65c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451669747,
-        "stop" : 1621451672999,
-        "duration" : 3252
-      }
     } ]
   },
   "9dae17bc25baad44ff01df6e69633a74" : {
@@ -1609,13 +1616,41 @@
   "601e1e7e49baa98279b4195bb29fc2fb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 32,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 35
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "92e77778b77dd533",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/92e77778b77dd533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717542564,
+        "stop" : 1621717545778,
+        "duration" : 3214
+      }
+    }, {
+      "uid" : "853569535b7759b2",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/853569535b7759b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717351747,
+        "stop" : 1621717354908,
+        "duration" : 3161
+      }
+    }, {
+      "uid" : "de9923325da2f73a",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/de9923325da2f73a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1621717219271,
+        "stop" : 1621717219271,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ce11cdaef67f057c",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/ce11cdaef67f057c",
       "status" : "passed",
@@ -1769,34 +1804,6 @@
         "stop" : 1621455778898,
         "duration" : 10046
       }
-    }, {
-      "uid" : "6ce7fdc4aef93985",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/6ce7fdc4aef93985",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452691178,
-        "stop" : 1621452694251,
-        "duration" : 3073
-      }
-    }, {
-      "uid" : "ed01c66a9b65401a",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/ed01c66a9b65401a",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000149262A5D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
-      "time" : {
-        "start" : 1621452394254,
-        "stop" : 1621452394254,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "24d010a10ee04f21",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/24d010a10ee04f21",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451673007,
-        "stop" : 1621451676038,
-        "duration" : 3031
-      }
     } ]
   },
   "e73b607dc71811375415cbe3c3d6ab71" : {
@@ -1804,11 +1811,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 34,
+      "passed" : 37,
       "unknown" : 0,
-      "total" : 34
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "48251e0d414dd9b5",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/48251e0d414dd9b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717536436,
+        "stop" : 1621717536879,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "39763d951124d73e",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/39763d951124d73e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717345700,
+        "stop" : 1621717346127,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "9e84d80c4328e904",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/9e84d80c4328e904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717214640,
+        "stop" : 1621717215054,
+        "duration" : 414
+      }
+    }, {
       "uid" : "3bb3d65750a3798d",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/3bb3d65750a3798d",
       "status" : "passed",
@@ -1961,33 +1995,6 @@
         "stop" : 1621455748750,
         "duration" : 1102
       }
-    }, {
-      "uid" : "dc64ff928b81b3b0",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/dc64ff928b81b3b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452684817,
-        "stop" : 1621452685298,
-        "duration" : 481
-      }
-    }, {
-      "uid" : "e26bfb87da27083d",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/e26bfb87da27083d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452373788,
-        "stop" : 1621452374226,
-        "duration" : 438
-      }
-    }, {
-      "uid" : "190245aa4dfa9006",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/190245aa4dfa9006",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451666843,
-        "stop" : 1621451667264,
-        "duration" : 421
-      }
     } ]
   },
   "3197456bfae0f8e1ac3db39c81ea6c88" : {
@@ -1995,11 +2002,38 @@
       "failed" : 9,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 28,
       "unknown" : 0,
-      "total" : 34
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "66b9766e86a48fe7",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/66b9766e86a48fe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717536249,
+        "stop" : 1621717536428,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "52c194774bb6d650",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/52c194774bb6d650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717345597,
+        "stop" : 1621717345697,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "26c567a22162e8c9",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/26c567a22162e8c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717214509,
+        "stop" : 1621717214637,
+        "duration" : 128
+      }
+    }, {
       "uid" : "46e51786c5a2abc6",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/46e51786c5a2abc6",
       "status" : "passed",
@@ -2152,33 +2186,6 @@
         "stop" : 1621455747641,
         "duration" : 548
       }
-    }, {
-      "uid" : "e3f7ec76f135f772",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/e3f7ec76f135f772",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452684345,
-        "stop" : 1621452684807,
-        "duration" : 462
-      }
-    }, {
-      "uid" : "f10667c971a41fc6",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/f10667c971a41fc6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452373686,
-        "stop" : 1621452373781,
-        "duration" : 95
-      }
-    }, {
-      "uid" : "be134da7c4587291",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/be134da7c4587291",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451666744,
-        "stop" : 1621451666839,
-        "duration" : 95
-      }
     } ]
   },
   "133e87359aa7e8219a9f4c8ebadd1708" : {
@@ -2186,11 +2193,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 34,
+      "passed" : 37,
       "unknown" : 0,
-      "total" : 34
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "3a2dd66b1da2f92c",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/3a2dd66b1da2f92c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717536886,
+        "stop" : 1621717537260,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "e6c9188b7da98ce3",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/e6c9188b7da98ce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717346134,
+        "stop" : 1621717346531,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "c3160cc95fe183be",
+      "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/c3160cc95fe183be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621717215062,
+        "stop" : 1621717215449,
+        "duration" : 387
+      }
+    }, {
       "uid" : "115bb9807d54c259",
       "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/115bb9807d54c259",
       "status" : "passed",
@@ -2342,33 +2376,6 @@
         "start" : 1621455748755,
         "stop" : 1621455750260,
         "duration" : 1505
-      }
-    }, {
-      "uid" : "3cfbad4510bd441",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/98/allure/#testresult/3cfbad4510bd441",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452685301,
-        "stop" : 1621452685829,
-        "duration" : 528
-      }
-    }, {
-      "uid" : "df3466d27475cef8",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/97/allure/#testresult/df3466d27475cef8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621452374229,
-        "stop" : 1621452374606,
-        "duration" : 377
-      }
-    }, {
-      "uid" : "6b61dbb2fcf8de8d",
-      "reportUrl" : "http://localhost:8080/job/AllureReports/93/allure/#testresult/6b61dbb2fcf8de8d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621451667271,
-        "stop" : 1621451667647,
-        "duration" : 376
       }
     } ]
   }

@@ -1,0 +1,109 @@
+{
+  "uid" : "ad96c89d744e262b",
+  "name" : "test_lambdatest_todo_app",
+  "fullName" : "testcases.test_pytest_1.Test_URL_Chrome#test_lambdatest_todo_app",
+  "historyId" : "dc9f49ff25a5ea9956d356a8ef3555bc",
+  "time" : {
+    "start" : 1621717348684,
+    "stop" : 1621717351737,
+    "duration" : 3053
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1621717347367,
+      "stop" : 1621717348683,
+      "duration" : 1316
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69db6d627d771864",
+      "name" : "lamdatest",
+      "source" : "69db6d627d771864.png",
+      "type" : "image/png",
+      "size" : 33081
+    }, {
+      "uid" : "9eaf34642b686030",
+      "name" : "log",
+      "source" : "9eaf34642b686030.txt",
+      "type" : "text/plain",
+      "size" : 138
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setup1::0",
+    "time" : {
+      "start" : 1621717355026,
+      "stop" : 1621717359264,
+      "duration" : 4238
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Chrome"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "11480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup1')" ]
+  },
+  "source" : "ad96c89d744e262b.json",
+  "parameterValues" : [ ]
+}

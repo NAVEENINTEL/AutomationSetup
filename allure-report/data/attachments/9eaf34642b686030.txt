@@ -1,0 +1,2 @@
+INFO     test_lambdatest_todo_app:test_pytest_1.py:24 Laubching URL
+INFO     test_lambdatest_todo_app:test_pytest_1.py:35 Maximized window

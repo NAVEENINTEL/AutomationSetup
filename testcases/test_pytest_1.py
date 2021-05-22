@@ -51,11 +51,5 @@ class Test_URL_Chrome(BasicTest):
         log.info("Maximized window")
         time.sleep(2)
 
-    @allure.step("REST API Testing")
-    def test_API(self):
-        log = self.getLogger()
-        allure.description("Executing getUsersapi")
-        log.info("Executing getUsersapi")
-        getUsersapi()
 
 
