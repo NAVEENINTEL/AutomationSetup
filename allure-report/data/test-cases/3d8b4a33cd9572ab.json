@@ -1,0 +1,103 @@
+{
+  "uid" : "3d8b4a33cd9572ab",
+  "name" : "test_google_search",
+  "fullName" : "testcases.test_pytest_2.Test_URL_Firefox#test_google_search",
+  "historyId" : "1f058a68bcf098a492bf2d83edbef5da",
+  "time" : {
+    "start" : 1621456835184,
+    "stop" : 1621456849000,
+    "duration" : 13816
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init_1",
+    "time" : {
+      "start" : 1621456833887,
+      "stop" : 1621456835183,
+      "duration" : 1296
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "108127b578eb1114",
+      "name" : "log",
+      "source" : "108127b578eb1114.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_init_1::0",
+    "time" : {
+      "start" : 1621456894345,
+      "stop" : 1621456894716,
+      "duration" : 371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init_1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Firefox"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "4936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init_1')" ]
+  },
+  "source" : "3d8b4a33cd9572ab.json",
+  "parameterValues" : [ ]
+}

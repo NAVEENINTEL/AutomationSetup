@@ -1,0 +1,124 @@
+{
+  "uid" : "9b2c8d44a961775e",
+  "name" : "test_lambdatest_load",
+  "fullName" : "testcases.test_pytest_1.Test_URL_Chrome#test_lambdatest_load",
+  "historyId" : "601e1e7e49baa98279b4195bb29fc2fb",
+  "time" : {
+    "start" : 1621456817353,
+    "stop" : 1621456828805,
+    "duration" : 11452
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init_1",
+    "time" : {
+      "start" : 1621456810774,
+      "stop" : 1621456812080,
+      "duration" : 1306
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "launching Goggle in chrome",
+      "time" : {
+        "start" : 1621456817353,
+        "stop" : 1621456828805,
+        "duration" : 11452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9f655b8511b9331",
+        "name" : "lamdatest",
+        "source" : "c9f655b8511b9331.png",
+        "type" : "image/png",
+        "size" : 32893
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fb933f2e0a572743",
+      "name" : "log",
+      "source" : "fb933f2e0a572743.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_init_1::0",
+    "time" : {
+      "start" : 1621456829691,
+      "stop" : 1621456833874,
+      "duration" : 4183
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init_1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_URL_Chrome"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "4936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init_1')" ]
+  },
+  "source" : "9b2c8d44a961775e.json",
+  "parameterValues" : [ ]
+}

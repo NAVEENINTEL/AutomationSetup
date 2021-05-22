@@ -1,0 +1,5 @@
+COMMNADS:
+
+Installing required libraries for automation:
+
+pip install -r requirements.txt

@@ -4,10 +4,10 @@
     "uid" : "81a9cf355b25e2526e27c1007297aeae",
     "name" : "restapi",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 5
     }

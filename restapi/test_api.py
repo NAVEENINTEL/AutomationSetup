@@ -5,6 +5,7 @@ import allure_commons
 
 @allure.step("Executing getUsersapi()")
 def test_getUsersapi():
+    assert False
     getUsersapi()
 @allure.step("Executing getSingleUsrAPI")
 def test_getSingleUsrAPI():

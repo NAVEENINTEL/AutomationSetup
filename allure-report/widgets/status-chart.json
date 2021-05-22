@@ -1,100 +1,100 @@
 [ {
-  "uid" : "24d010a10ee04f21",
-  "name" : "test_lambdatest_load",
-  "time" : {
-    "start" : 1621451673007,
-    "stop" : 1621451676038,
-    "duration" : 3031
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b61dbb2fcf8de8d",
+  "uid" : "e94ddade8e388674",
   "name" : "test_updateUserAPI",
   "time" : {
-    "start" : 1621451667271,
-    "stop" : 1621451667647,
-    "duration" : 376
+    "start" : 1621709390912,
+    "stop" : 1621709391468,
+    "duration" : 556
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f3f56b84c9f0507",
-  "name" : "test_API",
-  "time" : {
-    "start" : 1621451676043,
-    "stop" : 1621451676143,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cce7fc0413b4000b",
-  "name" : "test_google_search",
-  "time" : {
-    "start" : 1621451681723,
-    "stop" : 1621451684964,
-    "duration" : 3241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be134da7c4587291",
-  "name" : "test_getSingleUsrAPI",
-  "time" : {
-    "start" : 1621451666744,
-    "stop" : 1621451666839,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fb37c0e317f4bf6",
-  "name" : "test_insertUserAPI",
-  "time" : {
-    "start" : 1621451667653,
-    "stop" : 1621451668448,
-    "duration" : 795
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5d2ebebf9b8b381",
-  "name" : "test_getUsersapi",
-  "time" : {
-    "start" : 1621451666629,
-    "stop" : 1621451666739,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "190245aa4dfa9006",
-  "name" : "test_addUserAPI",
-  "time" : {
-    "start" : 1621451666843,
-    "stop" : 1621451667264,
-    "duration" : 421
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba5e673c8d6bdb82",
-  "name" : "test_lambdatest_blog_load",
-  "time" : {
-    "start" : 1621451684976,
-    "stop" : 1621451690997,
-    "duration" : 6021
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6137e6c3532de65c",
+  "uid" : "62a32a713e689656",
   "name" : "test_lambdatest_todo_app",
   "time" : {
-    "start" : 1621451669747,
-    "stop" : 1621451672999,
-    "duration" : 3252
+    "start" : 1621709394382,
+    "stop" : 1621709397509,
+    "duration" : 3127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc17523613b8169c",
+  "name" : "test_insertUserAPI",
+  "time" : {
+    "start" : 1621709391475,
+    "stop" : 1621709392520,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c78d9a3f6b8168ee",
+  "name" : "test_google_search",
+  "time" : {
+    "start" : 1621709407278,
+    "stop" : 1621709410606,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c70a2d02bb9388ce",
+  "name" : "test_API",
+  "time" : {
+    "start" : 1621709401247,
+    "stop" : 1621709401753,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe0eea30a418dd4a",
+  "name" : "test_addUserAPI",
+  "time" : {
+    "start" : 1621709390394,
+    "stop" : 1621709390907,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c441f163ceb8c548",
+  "name" : "test_lambdatest_load",
+  "time" : {
+    "start" : 1621709397521,
+    "stop" : 1621709401231,
+    "duration" : 3710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9247f9844d480215",
+  "name" : "test_lambdatest_blog_load",
+  "time" : {
+    "start" : 1621709410618,
+    "stop" : 1621709416761,
+    "duration" : 6143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f812dc3cda0a03",
+  "name" : "test_getUsersapi",
+  "time" : {
+    "start" : 1621709389639,
+    "stop" : 1621709389640,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "523cf144aafab5f9",
+  "name" : "test_getSingleUsrAPI",
+  "time" : {
+    "start" : 1621709389801,
+    "stop" : 1621709390388,
+    "duration" : 587
   },
   "status" : "passed",
   "severity" : "normal"
