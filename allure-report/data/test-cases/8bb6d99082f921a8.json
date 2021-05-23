@@ -1,0 +1,269 @@
+{
+  "uid" : "8bb6d99082f921a8",
+  "name" : "test_addUserAPI",
+  "fullName" : "restapi.test_api#test_addUserAPI",
+  "historyId" : "e73b607dc71811375415cbe3c3d6ab71",
+  "time" : {
+    "start" : 1621741080479,
+    "stop" : 1621741081023,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Executing getUsersapi()",
+      "time" : {
+        "start" : 1621741080480,
+        "stop" : 1621741081023,
+        "duration" : 543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "restapi"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "17712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "restapi.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 41,
+        "unknown" : 0,
+        "total" : 41
+      },
+      "items" : [ {
+        "uid" : "999a6cd9ad4a8f22",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/134/allure/#testresult/999a6cd9ad4a8f22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621719626378,
+          "stop" : 1621719626810,
+          "duration" : 432
+        }
+      }, {
+        "uid" : "2482df4939e44a4",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/133/allure/#testresult/2482df4939e44a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621719494695,
+          "stop" : 1621719495261,
+          "duration" : 566
+        }
+      }, {
+        "uid" : "7bc39be690d2083a",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/132/allure/#testresult/7bc39be690d2083a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621718832021,
+          "stop" : 1621718832533,
+          "duration" : 512
+        }
+      }, {
+        "uid" : "48251e0d414dd9b5",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/131/allure/#testresult/48251e0d414dd9b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621717536436,
+          "stop" : 1621717536879,
+          "duration" : 443
+        }
+      }, {
+        "uid" : "39763d951124d73e",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/130/allure/#testresult/39763d951124d73e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621717345700,
+          "stop" : 1621717346127,
+          "duration" : 427
+        }
+      }, {
+        "uid" : "9e84d80c4328e904",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/129/allure/#testresult/9e84d80c4328e904",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621717214640,
+          "stop" : 1621717215054,
+          "duration" : 414
+        }
+      }, {
+        "uid" : "3bb3d65750a3798d",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/124/allure/#testresult/3bb3d65750a3798d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621716499278,
+          "stop" : 1621716499708,
+          "duration" : 430
+        }
+      }, {
+        "uid" : "5313c737c441b496",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/123/allure/#testresult/5313c737c441b496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621716066802,
+          "stop" : 1621716067241,
+          "duration" : 439
+        }
+      }, {
+        "uid" : "ff2454d9825f8b1e",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/121/allure/#testresult/ff2454d9825f8b1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621715860724,
+          "stop" : 1621715861156,
+          "duration" : 432
+        }
+      }, {
+        "uid" : "7807f2072ba95149",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/120/allure/#testresult/7807f2072ba95149",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621715343657,
+          "stop" : 1621715344186,
+          "duration" : 529
+        }
+      }, {
+        "uid" : "abb0de4ef0cff820",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/119/allure/#testresult/abb0de4ef0cff820",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621715343657,
+          "stop" : 1621715344186,
+          "duration" : 529
+        }
+      }, {
+        "uid" : "976aa951bded9220",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/117/allure/#testresult/976aa951bded9220",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621714954447,
+          "stop" : 1621714954835,
+          "duration" : 388
+        }
+      }, {
+        "uid" : "e1d401770170c8ca",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/116/allure/#testresult/e1d401770170c8ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621714954447,
+          "stop" : 1621714954835,
+          "duration" : 388
+        }
+      }, {
+        "uid" : "2129b21ba4bdd709",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/115/allure/#testresult/2129b21ba4bdd709",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621714954447,
+          "stop" : 1621714954835,
+          "duration" : 388
+        }
+      }, {
+        "uid" : "42112b2b9ab5756f",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/114/allure/#testresult/42112b2b9ab5756f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712904224,
+          "stop" : 1621712904727,
+          "duration" : 503
+        }
+      }, {
+        "uid" : "44c35b676cae7e9",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/113/allure/#testresult/44c35b676cae7e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621712734333,
+          "stop" : 1621712734868,
+          "duration" : 535
+        }
+      }, {
+        "uid" : "72ea99c2c297e953",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/112/allure/#testresult/72ea99c2c297e953",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621711789643,
+          "stop" : 1621711790102,
+          "duration" : 459
+        }
+      }, {
+        "uid" : "78a2105cd63d4b60",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/111/allure/#testresult/78a2105cd63d4b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621710812994,
+          "stop" : 1621710813524,
+          "duration" : 530
+        }
+      }, {
+        "uid" : "fe0eea30a418dd4a",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/110/allure/#testresult/fe0eea30a418dd4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621709390394,
+          "stop" : 1621709390907,
+          "duration" : 513
+        }
+      }, {
+        "uid" : "37497ac165157f8",
+        "reportUrl" : "http://localhost:8080/job/AllureReports/109/allure/#testresult/37497ac165157f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621457021978,
+          "stop" : 1621457022927,
+          "duration" : 949
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bb6d99082f921a8.json",
+  "parameterValues" : [ ]
+}

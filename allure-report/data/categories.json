@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert False",
       "children" : [ {
         "name" : "test_getUsersapi",
-        "uid" : "9f0f603d446773d5",
+        "uid" : "2de671dcaff30d4f",
         "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
         "status" : "failed",
         "time" : {
-          "start" : 1621719626067,
-          "stop" : 1621719626068,
-          "duration" : 1
+          "start" : 1621741079576,
+          "stop" : 1621741079578,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,

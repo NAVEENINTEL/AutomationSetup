@@ -1,27 +1,28 @@
-import inspect
-import logging
 import allure
 from allure_commons.types import AttachmentType
 import pytest
-import unittest
-import pytest_html
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 import time
-from time import sleep
-import sys
-
-from conftest import _capture_screenshot
-from restapi.BaseAPI import getUsersapi
 from utilities.BasicTest import BasicTest
-
 
 @pytest.mark.usefixtures("setup1")
 class Test_URL_Chrome(BasicTest):
+    @allure.description("Launching Amazon website and search for Iphone")
+    def test_amazon2(self):
+        allure.attach('Tester', 'Naveen')
+        with allure.step('Launching amazon website'):
+            log = self.getLogger()
+            log.info("Launching amazon website")
+            self.driver.get('https://www.amazon.in')
+            self.driver.maximize_window()
+        with allure.step('Searching for Iphone'):
+            self.driver.find_element(By.ID, "twotabsearchtextbox").send_keys("Iphone")
+            self.driver.find_element(By.XPATH, "//*[@id='nav-search-bar-form']/div[3]/div").click()
+            time.sleep(1)
     def test_lambdatest_todo_app(self):
+        allure.attach("Tester","Naveen")
         log = self.getLogger()
-        log.info("Laubching URL")
+        log.info("Launching URL")
         self.driver.get('https://lambdatest.github.io/sample-todo-app/')
         self.driver.maximize_window()
         titleOfWebPage = self.driver.title

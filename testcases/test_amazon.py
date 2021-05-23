@@ -17,5 +17,3 @@ class Test_Search(BasicTest):
         self.driver.find_element(By.ID,"twotabsearchtextbox").send_keys("Iphone")
         self.driver.find_element(By.XPATH,"//*[@id='nav-search-bar-form']/div[3]/div").click()
         time.sleep(1)
-
-

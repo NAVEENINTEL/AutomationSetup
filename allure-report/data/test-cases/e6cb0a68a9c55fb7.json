@@ -1,0 +1,105 @@
+{
+  "uid" : "e6cb0a68a9c55fb7",
+  "name" : "test_iphone_search",
+  "fullName" : "testcases.test_amazon.Test_Search#test_iphone_search",
+  "historyId" : "45964d25ea68097f243f2692718cc0dc",
+  "time" : {
+    "start" : 1621741090137,
+    "stop" : 1621741095123,
+    "duration" : 4986
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1621741082721,
+      "stop" : 1621741090136,
+      "duration" : 7415
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3637bf1c0da3dafc",
+      "name" : "log",
+      "source" : "3637bf1c0da3dafc.txt",
+      "type" : "text/plain",
+      "size" : 425
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup1::0",
+    "time" : {
+      "start" : 1621741095124,
+      "stop" : 1621741096347,
+      "duration" : 1223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup1')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_amazon"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R80SP7R"
+  }, {
+    "name" : "thread",
+    "value" : "17712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_amazon"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup1')" ]
+  },
+  "source" : "e6cb0a68a9c55fb7.json",
+  "parameterValues" : [ ]
+}

@@ -1,7 +1,7 @@
 import configparser
 
 config=configparser.RawConfigParser()
-configFilePath=r'D:\python practice\Automation\Configurations\config.ini'
+configFilePath=r'config.ini'
 config.read(configFilePath)
 
 class ReadConfig:

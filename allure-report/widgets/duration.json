@@ -1,90 +1,100 @@
 [ {
-  "uid" : "5b6fc614a42a84bb",
-  "name" : "test_getSingleUsrAPI",
+  "uid" : "97020e61b3833a21",
+  "name" : "test_insertUserAPI",
   "time" : {
-    "start" : 1621719626243,
-    "stop" : 1621719626375,
-    "duration" : 132
+    "start" : 1621741081552,
+    "stop" : 1621741082712,
+    "duration" : 1160
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ddc88cdee07dea91",
+  "uid" : "3cab96b9084f29ef",
   "name" : "test_lambdatest_load",
   "time" : {
-    "start" : 1621719638652,
-    "stop" : 1621719642037,
-    "duration" : 3385
+    "start" : 1621741106204,
+    "stop" : 1621741109581,
+    "duration" : 3377
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9f0f603d446773d5",
+  "uid" : "8bb6d99082f921a8",
+  "name" : "test_addUserAPI",
+  "time" : {
+    "start" : 1621741080479,
+    "stop" : 1621741081023,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6cb0a68a9c55fb7",
+  "name" : "test_iphone_search",
+  "time" : {
+    "start" : 1621741090137,
+    "stop" : 1621741095123,
+    "duration" : 4986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98a2dd867dc7525",
+  "name" : "test_lambdatest_blog_load",
+  "time" : {
+    "start" : 1621741121032,
+    "stop" : 1621741128024,
+    "duration" : 6992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7f9180442ae30f3",
+  "name" : "test_updateUserAPI",
+  "time" : {
+    "start" : 1621741081031,
+    "stop" : 1621741081548,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6022cdb88a28324e",
+  "name" : "test_getSingleUsrAPI",
+  "time" : {
+    "start" : 1621741079818,
+    "stop" : 1621741080470,
+    "duration" : 652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de671dcaff30d4f",
   "name" : "test_getUsersapi",
   "time" : {
-    "start" : 1621719626067,
-    "stop" : 1621719626068,
-    "duration" : 1
+    "start" : 1621741079576,
+    "stop" : 1621741079578,
+    "duration" : 2
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "999a6cd9ad4a8f22",
-  "name" : "test_addUserAPI",
-  "time" : {
-    "start" : 1621719626378,
-    "stop" : 1621719626810,
-    "duration" : 432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34f270d1c8a5ec07",
-  "name" : "test_lambdatest_blog_load",
-  "time" : {
-    "start" : 1621719653146,
-    "stop" : 1621719660501,
-    "duration" : 7355
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac171730c3783d6f",
+  "uid" : "1c3c99d64104e82a",
   "name" : "test_google_search",
   "time" : {
-    "start" : 1621719649842,
-    "stop" : 1621719653130,
-    "duration" : 3288
+    "start" : 1621741117500,
+    "stop" : 1621741121022,
+    "duration" : 3522
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "63c8bc7402515fa1",
-  "name" : "test_insertUserAPI",
-  "time" : {
-    "start" : 1621719627194,
-    "stop" : 1621719627989,
-    "duration" : 795
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bc334f824edb1f19",
-  "name" : "test_updateUserAPI",
-  "time" : {
-    "start" : 1621719626813,
-    "stop" : 1621719627191,
-    "duration" : 378
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6800a94ce35cc",
+  "uid" : "36da9e33f1562564",
   "name" : "test_lambdatest_todo_app",
   "time" : {
-    "start" : 1621719635299,
-    "stop" : 1621719638641,
-    "duration" : 3342
+    "start" : 1621741103397,
+    "stop" : 1621741106192,
+    "duration" : 2795
   },
   "status" : "passed",
   "severity" : "normal"
