@@ -1,0 +1,8 @@
+INFO     WDM:logger.py:22 
+
+INFO     WDM:logger.py:12 ====== WebDriver manager ======
+INFO     WDM:logger.py:12 Current firefox version is 88.0.1
+INFO     WDM:logger.py:12 Get LATEST driver version for 88.0.1
+INFO     WDM:logger.py:12 Driver [C:\Windows\system32\config\systemprofile\.wdm\drivers\geckodriver\win64\v0.29.1\geckodriver.exe] found in cache
+INFO     test_lambdatest_todo_app:test_pytest_1.py:24 Laubching URL
+INFO     test_lambdatest_todo_app:test_pytest_1.py:35 Maximized window

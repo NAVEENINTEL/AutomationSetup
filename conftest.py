@@ -9,7 +9,7 @@ from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManag
 
 def pytest_addoption(parser):
     parser.addoption(
-        "--browser_name", action="store", default="chrome"
+        "--browser_name", action="store", default="firefox"
     )
 
 @pytest.fixture(scope="class")
