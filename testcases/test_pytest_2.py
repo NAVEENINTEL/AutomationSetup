@@ -1,14 +1,5 @@
-import inspect
-import logging
-
 import pytest
-import pytest_html
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 import time
-from time import sleep
-import sys
 
 from utilities.BasicTest import BasicTest
 
