@@ -3,3 +3,10 @@ COMMNADS:
 Installing required libraries for automation:
 
 pip install -r requirements.txt
+
+Creating SSH Keys:
+ssh-keygen -t rsa -b 4096 -C "naveenintel86@gmail.com"
+two time press Enter
+cat /c/Users/user/.ssh/id_rsa.pub
+Test Connection:
+ ssh -T git@github.com
