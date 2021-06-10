@@ -1,6 +1,14 @@
 # AutomationSetup
 Here you can find the basic setup for Python +Automation Framework. Clone and start coding.
 
+## Requirements
+
+**Python should be installed on system**
+
+**pycharm installed on your system**
+
+**git installed on your system**
+
 # Steps to get Setup project locally
 
 ## Go to drive where you want to setup project
@@ -11,7 +19,7 @@ Here you can find the basic setup for Python +Automation Framework. Clone and st
 
 **type D: and press enter**
 
-**git pull []**
+**git pull https://github.com/NAVEENINTEL/AutomationSetup.git**
 
 **new folder with project name is created in D drive**
 
