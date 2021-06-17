@@ -13,7 +13,7 @@ pipeline {
     stage('Build') {
       steps {
           echo "Build"
-        sh "pip install -r requirements.txt"
+          sh 'pip install -r requirements.txt'
         // build, build stages can be made in parallel aswell
         // build stage can call other stages
         // can trigger other jenkins pipelines and copy artifact from that pipeline
