@@ -25,6 +25,7 @@ pipeline {
       steps {
         // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
         echo "Testing"
+        git 'https://github.com/NAVEENINTEL/AutomationSetup.git'
         bat '''pip install -r requirements.txt
               python -m pytest  -v -s  --alluredir=localReport'''
    
