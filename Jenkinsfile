@@ -3,10 +3,11 @@ pipeline {
 
   stages {
       
-    stage('Clean Workspace') {
+    stage('Environment setup') {
       steps {
         // Clean the workspace
-        echo "Clean" 
+        echo "Environment setup" 
+        tool name: 'python', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
       }
     }
 
