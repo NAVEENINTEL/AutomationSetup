@@ -13,30 +13,31 @@ pipeline {
     stage('Build') {
       steps {
           echo "Build"
+          build 'Regression'
         // build, build stages can be made in parallel aswell
         // build stage can call other stages
         // can trigger other jenkins pipelines and copy artifact from that pipeline
       }
     }
 
-    stage('Test') {
-      steps {
-        // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
-        echo "Testing"
-        sh '''pip install -r requirements.txt
-              python -m pytest  -v -s  --alluredir=localReport'''
+//     stage('Test') {
+//       steps {
+//         // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
+//         echo "Testing"
+//         sh '''pip install -r requirements.txt
+//               python -m pytest  -v -s  --alluredir=localReport'''
    
-      }
-    }
+//       }
+//     }
 
-    stage('Deploy') {
-      steps {
-          echo "Deploy"
-        // Deploy to cloud providers /local drives /artifactory etc.
-        // Deploy to Deploy/prod /test/ etc
-      }
-    }
-  }
+//     stage('Deploy') {
+//       steps {
+//           echo "Deploy"
+//         // Deploy to cloud providers /local drives /artifactory etc.
+//         // Deploy to Deploy/prod /test/ etc
+//       }
+//     }
+//   }
 
   post {
     success {
