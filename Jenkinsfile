@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { docker { image 'python:3.5.1' } }
 
   stages {
       
@@ -7,7 +7,7 @@ pipeline {
       steps {
         // Clean the workspace
         echo "Environment setup" 
-        tool name: 'python', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
+        //tool name: 'python', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
       }
     }
 
