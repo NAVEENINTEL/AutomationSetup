@@ -20,15 +20,15 @@ pipeline {
       }
     }
 
-//     stage('Test') {
-//       steps {
-//         // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
-//         echo "Testing"
-//         sh '''pip install -r requirements.txt
-//               python -m pytest  -v -s  --alluredir=localReport'''
+    stage('Test') {
+      steps {
+        // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
+        echo "Testing"
+        bat '''pip install -r requirements.txt
+              python -m pytest  -v -s  --alluredir=localReport'''
    
-//       }
-//     }
+      }
+    }
 
 //     stage('Deploy') {
 //       steps {
