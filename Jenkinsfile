@@ -13,7 +13,6 @@ pipeline {
     stage('Build') {
       steps {
           echo "Build"
-          sh 'pip install -r requirements.txt'
         // build, build stages can be made in parallel aswell
         // build stage can call other stages
         // can trigger other jenkins pipelines and copy artifact from that pipeline
@@ -24,7 +23,8 @@ pipeline {
       steps {
         // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
         echo "Testing"
-        sh "python -m pytest  -v -s  --alluredir=localReport"
+        sh '''pip install -r requirements.txt
+              python -m pytest  -v -s  --alluredir=localReport'''
    
       }
     }
@@ -41,6 +41,7 @@ pipeline {
   post {
     success {
       echo "SUCCESS"
+      allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
       echo "${env.BUILD_ID} on ${env.JENKINS_URL}"
     }
     failure {
