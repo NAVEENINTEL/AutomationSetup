@@ -25,10 +25,10 @@ pipeline {
       steps {
         // Test (Unit test / Automation test(Selenium/Robot framework) / etc.)
         echo "Testing"
-        tool name: 'python', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
+        //tool name: 'python', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
         git 'https://github.com/NAVEENINTEL/AutomationSetup.git'
-        bat '''pip install -r requirements.txt
-              python -m pytest  -v -s  --alluredir=localReport'''
+        //bat '''pip install -r requirements.txt
+        //      python -m pytest  -v -s  --alluredir=localReport'''
    
       }
     }
